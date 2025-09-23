@@ -1,0 +1,367 @@
+/* --- Cài đặt chung & Fonts --- */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+.container {
+    max-width: 1440px; /* Chiều rộng tối đa của nội dung */
+    margin-left: auto;  /* Tự động căn giữa */
+    margin-right: auto; /* Tự động căn giữa */
+    padding-left: 15px;  /* Tạo khoảng đệm an toàn hai bên */
+    padding-right: 15px; /* Tạo khoảng đệm an toàn hai bên */
+}
+/* --- Bố cục tổng thể của Header --- */
+.site-header {
+    border-bottom: 1px solid #e0e0e0;
+}
+/* --- Header Top: Logo, Search, Language --- */
+.header-top {
+    display: flex; /* Dùng Flexbox để sắp xếp */
+    justify-content: space-between; /* Đẩy 2 cụm logo và control ra hai bên */
+    align-items: center; /* Căn giữa các item theo chiều dọc */
+    height: 177px; /* Đặt chiều cao cố định như trong thiết kế */
+    padding: 0 140px;
+    background-image: url('/images/Frame%203.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Nếu bạn có ảnh nền, hãy thêm vào đây */
+    /* background: url('../images/header-bg.png') no-repeat center center/cover; */
+    border-bottom: 1px solid #e0e0e0;
+}
+.header-top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+/* --- Khu vực Logo --- */
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-area img {
+    height: 70px; 
+}
+
+.site-title h1 {
+    font-family: 'SF pro Display', sans-serif;
+    font-size: 24px;
+    line-height: 25px; 
+    font-weight: bold;
+    color: #332F81;
+    margin: 0;
+}
+
+.site-title span {
+    font-family: 'Times New Roman', Times, serif; /* Sử dụng font tương ứng từ Figma */
+    font-size: 26px; /* Tăng cỡ chữ để khớp với height ~32px */
+    line-height: 32px; /* Đặt chiều cao dòng cho chính xác */
+    font-weight: bold; /* Thêm độ đậm cho chữ */
+    color: #B7202F; /* Đổi thành màu đỏ theo yêu cầu */
+    -webkit-text-stroke: 0.25px #B7202F; /* Tạo hiệu ứng viền chữ */
+}
+
+/* --- Khu vực Control bên phải --- */
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Khoảng cách giữa thanh tìm kiếm và bộ chọn ngôn ngữ */
+}
+
+/* --- Form Tìm kiếm --- */
+.search-form {
+    display: flex;
+    align-items: center;
+    border: 1px solid #B4B4B4;
+    border-radius: 5px; /* Bo góc nhẹ cho cả form */
+    background-color: #FFFFFF;
+    padding: 4px;
+    
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-family: 'SF pro Display', sans-serif;
+    line-height: 24px;
+    color: #333;
+}
+.search-input::placeholder {
+    color: #B4B4B4; /* Cập nhật màu chữ placeholder */
+    font-weight: 400; /* Cập nhật độ đậm */
+}
+
+.search-button {
+    border: none;
+    background-color: white; /* Màu đỏ */
+    width: 34px;
+    height: 34px;
+    border-radius: 5px;  
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.search-button:hover {
+    background-color: rgb(155, 149, 149);
+}
+
+.search-button img {
+    height: 16px;
+    width: 16px;
+    object-fit: contain;
+}
+
+
+/* --- Bộ chọn ngôn ngữ --- */
+.language-selector {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Khoảng cách giữa các phần tử */
+    cursor: pointer;
+}
+
+.lang-flag {
+    height: 20px;
+}
+
+.language-selector span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.lang-arrow {
+    height: 12px;
+}
+
+.main-nav {
+    background-color: #CD262D; /* Màu nền đỏ */
+    display: flex;
+    justify-content: center; /* Căn giữa danh sách menu */
+    height: 48px;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+}
+
+.main-nav li a {
+    display: block;
+    color: white;
+    text-decoration: none; /* Bỏ gạch chân */
+    padding: 0 35px;/* Tạo khoảng đệm */
+    font-family: 'Arial', sans-serif;
+    font-size: 16px; /* Cập nhật cỡ chữ */
+    line-height: 24px; /* Đặt chiều cao dòng chữ là 24px */
+    font-weight: normal;
+}
+ 
+ 
+.main-nav li a.home-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;  
+    width: 56px;   
+    height: 48px;
+    background-image: url('../images/Rectangle\ 160.png'); /* Áp dụng ảnh nền */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.home-icon img {
+    height: 20px;
+ 
+}
+
+.sub-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 42px;
+    background-image: url('/images/Rectangle\ 11271.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    padding: 0 7px; /* Khoảng đệm */
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+
+}
+.sub-nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px; /* Container trong để căn lề nội dung */
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+.sub-nav-left, .sub-nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Khoảng cách giữa các phần tử */
+}
+.sub-nav-left img {
+    height: 20px;
+}
+
+.sub-nav-left p {
+    margin: 0;
+    color: #3A3A3A;
+;
+}
+
+.nav-arrows a img {
+    height: 22px;
+    opacity: 0.7;
+}
+
+.filter-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #555;
+    cursor: pointer;
+}
+
+.filter-dropdown img {
+    height: 18px;
+    width: 18px;
+}
+
+
+
+
+main {
+     padding: 15px 130px; /* Thêm padding cho nội dung chính */
+}
+
+.hero-section {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px; /* Tăng khoảng cách giữa 2 cột */
+    padding-top: 20px;
+}
+
+/* --- Bài viết nổi bật (bên trái) --- */
+.featured-post {
+    position: relative;
+    width: 100%;
+    padding-top: 57.15%; /* 364/637 ≈ 57.15% */
+}
+.featured-post-bg {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+}
+
+
+.post-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8), rgba(0,0,0,0)); /* Hiệu ứng mờ */
+}
+
+.post-content .category {
+    background-color: #CD262D;
+    padding: 4px 8px;
+    font-size: 12px;
+    font-family: 'Arial', sans-serif;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.post-content h2 {
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    margin: 0 0 10px 0;
+}
+
+.post-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+}
+
+.post-meta img {
+    height: 16px;
+    filter: brightness(0) invert(1); /* Đổi màu icon lịch thành trắng */
+}
+
+ 
+
+/* --- Danh sách tin tức (bên phải) --- */
+.post-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.post-list li a {
+     display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    text-decoration: none;
+    color: #3A3A3A;
+    padding: 15px 0;
+    border-bottom: 1px solid #EAEAEA;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.post-list li:last-child a {
+    border-bottom: none; /* Bỏ đường kẻ ở tin cuối */
+}
+
+.post-list li a img {
+    width: 12px;
+    margin-top: 5px; /* Căn icon cho đẹp hơn */
+}
+
+.slider-dots {
+    position: absolute;
+    bottom: -20px; /* Đẩy ra ngoài khối ảnh */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 6px;
+    z-index: 2;
+}
+
+.slider-dots .dot {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.slider-dots .dot.active {
+    background-color: white;
+}
+
