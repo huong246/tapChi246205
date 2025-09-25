@@ -392,7 +392,6 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 20px;
-    padding: 20px;
     background-image: url('/images/bgTinTucNoiBat.png');
     background-size: cover;
     background-position: center;
@@ -591,12 +590,16 @@ body {
 
 
 
-/* Container chính cho toàn bộ khu vực tin tức */
+ 
 .Event-new {
-    padding: 20px;
+
+    height: 761px;
+    width: 1208px;
+    width: 80%;
+    margin: 0 auto; 
 }
 
-/* Phần tiêu đề và nút "Xem tất cả" */
+ 
 .header-section {
     display: flex;
     justify-content: space-between;
@@ -617,13 +620,13 @@ body {
     font-weight: bold;
 }
 
-/* Container cho danh sách sự kiện */
+ 
 .event-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* Tạo 4 cột có chiều rộng bằng nhau */
+   
     gap: 20px;
-    /* Khoảng cách giữa các cột và hàng */
+  
 }
 
 /* Định dạng chung cho mỗi mục tin tức */
@@ -666,11 +669,13 @@ body {
 
 
 /*tin hoat dong*/
-.action-new {
-    padding: 20px;
+.action-news {
+    height: 761px;
+    width: 1439px;
+    width: 80%;
+    margin: 0 auto; 
 }
 
-/* Phần tiêu đề và nút "Xem tất cả" */
 .header-section {
     display: flex;
     justify-content: space-between;
@@ -691,16 +696,14 @@ body {
     font-weight: bold;
 }
 
-/* Container cho danh sách sự kiện */
+ 
 .action-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* Tạo 4 cột có chiều rộng bằng nhau */
     gap: 20px;
-    /* Khoảng cách giữa các cột và hàng */
+   
 }
 
-/* Định dạng chung cho mỗi mục tin tức */
 .action-item {
     border: 1px solid #e0e0e0;
     border-radius: 8px;
@@ -740,15 +743,20 @@ body {
 
 /*thu vien*/
 
-/* Container chính cho phần Thư viện */
-.library-section {
-    padding: 40px 0;
+.library{
+    height: 519px;
+    width: 1194px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto; 
+    margin-bottom: 30px;
+    border: 1px hidden #d8d8d8;
 }
 
-/* Phần tiêu đề và phụ đề */
+ 
 .library-header {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     /* Căn chỉnh phụ đề và tiêu đề trên cùng một dòng */
     margin-bottom: 20px;
     gap: 15px;
@@ -757,16 +765,28 @@ body {
 
 .section-title {
     color: #b6150d;
+    font-family: 'SF Pro Display', sans-serif;
+    line-height: 42px;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 600;
     margin: 0;
 }
 
 .section-subtitle {
-    color: #4b4b4b;
+    font-family: 'SF Pro Display', sans-serif;
+    background-image: url('/images/nenThuVien.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 29px;
+    width: 404px;
+    border-radius: 3px;
+    color: #2e3192;
     font-size: 16px;
     margin: 0;
 }
+
+  
 
 /* Container cho danh sách các tạp chí */
 .library-list {
@@ -848,9 +868,8 @@ body {
     width: 80%; /* Bắt buộc phải có chiều rộng nhỏ hơn 100% */
   margin-left: auto;
   margin-right: auto;
-  
-  /* Hoặc viết tắt */
   margin: 0 auto; 
+  margin-bottom: 30px;
 
 }
 
@@ -867,6 +886,7 @@ body {
     flex-direction: column;    /* Xếp các con theo cột dọc */
     align-items: flex-start;
     padding-left: 150px;
+    margin-bottom: 20px;
 
 }
 
@@ -914,7 +934,7 @@ body {
 
 .footer-info {
     background-image: url('/images/NenFt.png');
-    height: 305px;
+    height: 350px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -990,5 +1010,11 @@ body {
 .copyright,
 .social-media {
     color: #6C6C6C;
-    font-size: 14px;
+    font-size: 13px;
+    gap : 20px;
+    justify-items: center;
+}
+.social-media img {
+    width: 24px;
+    height: 24px;
 }
