@@ -818,7 +818,37 @@ body {
     margin: 0;
 }
 
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px
+}
 
+.slider-dots .dot {
+    width: 14px;
+    height: 14px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+
+}
+
+.slider-dots .dot.active {
+    background-color: #CD262D;
+}
+
+
+.footer-divider {
+    border: none;
+    border-top: 3px solid #B6150D;
+    height: 3px;
+    width: 1208px;
+    width: 90%;
+    margin: 20px auto;
+    height: 0;
+}
 
 
 /*footer*/
@@ -939,6 +969,10 @@ body {
     border: none;
     border-top: 1px dotted #bac5cd;
     width: 1204px;
+    width: 1208px;
+    width: 90%;
+    margin: 20px auto;
+    height: 0;
    
 }
 
