@@ -1,16 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head> <!--the meta la 1 the de cung cap siu du lieu ve html(du lieu mo ta ve du lieu khac)-->
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tạp chí y dược học</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;500;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+
     <header class="site-header">
-        <div class="header-top"> <!--div nhom cac phan tu khac lai voi nhau thanh 1 hang tren cung-->
+        <div class="header-top">
             <div class="logo-area">
                 <a href="/">
                     <img src="images/logo.svg" alt="Logo Tạp chí Y Dược học">
@@ -22,7 +22,7 @@
             </div>
 
             <div class="header-controls">
-                <form class="search-form"> <!--de bao boc cac yeu to nhap lieu ma nguoi dung co the gui di-->
+                <form class="search-form">
                     <input type="text" class="search-input" placeholder="Tìm kiếm">
                     <button type="submit" class="search-button">
                         <img src="images/Magnifer.svg" alt="Search">
@@ -36,25 +36,25 @@
                 </div>
             </div>
         </div>
+        <div class="nav-wrapper">
+            <nav class="nav">
+                <img src="images/Home.svg" alt="home">
+                <a class="nav-link" href="#">Giới thiệu</a>
+                <a class="nav-link" href="#">Văn bản</a>
+                <a class="nav-link" href="#">Thông tin Y dược</a>
+                <a class="nav-link" href="#">Tin hoạt động</a>
+                <a class="nav-link" href="#">Thư viện</a>
+                <a class="nav-link" href="#">Sức khỏe cộng đồng</a>
+                <a class="nav-link" href="#">Liên hệ</a>
+            </nav>
+        </div>
 
     </header>
+
+
+
     <main>
-        <nav class="main-nav">
-            <div class="nav-container">
-                <a href="/" class="home-icon">
-                    <img src="images/Home.svg" alt="Trang chủ">
-                </a>
-                <ul class="nav-links">
-                    <li><a href="#">Giới thiệu</a></li>
-                    <li><a href="#">Văn bản</a></li>
-                    <li><a href="#">Thông tin Y Dược</a></li>
-                    <li><a href="#">Tin hoạt động</a></li>
-                    <li><a href="#">Thư viện</a></li>
-                    <li><a href="#">Sức khỏe cộng đồng</a></li>
-                    <li><a href="#">Liên hệ</a></li>
-                </ul>
-            </div>
-        </nav>
+
 
         <section class="sub-nav">
             <div class="sub-nav-left">
@@ -69,14 +69,14 @@
                 <div class="filter-dropdown">
                     <span>Mới nhất</span>
                 </div>
-                <div class="filter-dropdown">
+                <div class="filter-dropdown1">
                     <span>Đọc nhiều</span>
                     <img src="images/Vector.svg" alt="Dropdown">
                 </div>
             </div>
         </section>
 
-        <!--phan 1-->
+        <!--phan thuoc-->
 
         <section class="hero-section">
             <div class="featured-post">
@@ -95,7 +95,8 @@
                     <li>
                         <a href="#">
                             <img src="images/Widget.svg" alt="News icon">
-                            <span><strong>Robot mổ não Modus V Synaptive có khả năng giúp bác sĩ thấy rõ các bó sợi thần
+                            <span><strong>Robot mổ não Modus V Synaptive có khả năng giúp bác sĩ thấy rõ các bó sợi
+                                    thần
                                     kinh,
                                     các mô não lành...</strong></span>
                         </a>
@@ -103,7 +104,8 @@
                     <li>
                         <a href="#">
                             <img src="images/Widget.svg" alt="News icon">
-                            <span><strong>Robot mổ não Modus V Synaptive có khả năng giúp bác sĩ thấy rõ các bó sợi thần
+                            <span><strong>Robot mổ não Modus V Synaptive có khả năng giúp bác sĩ thấy rõ các bó sợi
+                                    thần
                                     kinh,
                                     các mô não lành...</strong></span>
                         </a>
@@ -111,7 +113,8 @@
                     <li>
                         <a href="#">
                             <img src="images/Widget.svg" alt="News icon">
-                            <span><strong>Robot mổ não Modus V Synaptive có khả năng giúp bác sĩ thấy rõ các bó sợi thần
+                            <span><strong>Robot mổ não Modus V Synaptive có khả năng giúp bác sĩ thấy rõ các bó sợi
+                                    thần
                                     kinh,
                                     các mô não lành...</strong></span>
                         </a>
@@ -119,7 +122,8 @@
                     <li>
                         <a href="#">
                             <img src="images/Widget.svg" alt="News icon">
-                            <span><strong>Robot mổ não Modus V Synaptive có khả năng giúp bác sĩ thấy rõ các bó sợi thần
+                            <span><strong>Robot mổ não Modus V Synaptive có khả năng giúp bác sĩ thấy rõ các bó sợi
+                                    thần
                                     kinh,
                                     các mô não lành...</strong></span>
                         </a>
@@ -127,6 +131,8 @@
                 </ul>
             </div>
         </section>
+
+
         <div class="slider-dots">
             <span class="dot active"></span>
             <span class="dot"></span>
@@ -134,94 +140,116 @@
         </div>
 
 
-
-
-        <sesion class="news">
-            <div class="featured-news">
-                <h2 class="news-title">TIN TỨC NỔI BẬT</h2>
-                <div class="news-features">
-                    <div class="top-new">
-                        <img src="images/TopTinTuc.png" alt="Top 5 thao duoc" class="top-new-img">
-                        <div class="top-new-info">
-                            <h3>Top 5 thảo dược cải thiện hiệu quả kém ăn và mất ngủ ở người lớn</h3>
-                            <div class="top-new-meta">
-                                <span class="date"><img src="images/LichTrang.svg" alt="calendar">22.10.2020</span>
-                                <span class="category">- Y dược học trong nước</span>
-                            </div>
-                            <p>Nếu không được điều trị kịp thời, tình trạng kém ăn và mất ngủ ở người trưởng thành có
-                                thể ảnh hưởng tiêu cực đến sức khỏe và chất lượng cuộc sống. Cách chữa mất ngủ bằng
-                                thuốc Tây khiến nhiều người lo ngại bởi các tác dụng phụ.</p>
+        <!--Phan new viet lai-->
+        <section class="news">
+            <div class="newsNoiBat">
+                <h2>TIN TỨC NỔI BẬT</h2>
+                <div class="all-new">
+                    <div class="new1">
+                        <img src="images/TopTinTuc.png" alt="top tin tuc" class="top-hinh">
+                        <h3>Top 5 thảo dược cải thiện hiệu quả kém ăn và mất ngủ ở người lớn</h3>
+                        <div class="new1-meta">
+                            <img src="images/LichTrang.svg" alt="lich trang">
+                            <span>22.10.2020 - </span>
+                            <a href="#">Trang thiết bị & cơ sở y tế</a>
+                        </div>
+                        <div class="content">
+                            <p>Nếu không được điều trị kịp thời, tình trạng kém ăn và mất ngủ ở người trưởng
+                                thành có thể ảnh hưởng tiêu cực đến sức khỏe và chất lượng cuộc sống. Cách chữa
+                                mất ngủ bằng thuốc Tây khiến nhiều người lo ngại bởi các tác dụng phụ.</p>
                         </div>
                     </div>
 
-                    <div class="small-news">
-                        <div class="small-new">
-                            <img src="images/sTinTucNoiBat1.png" alt="Nhung luu y ve che do dd" class="small-new-img">
-                            <div class="small-new-info">
-                                <h4>Những lưu ý về chế độ dinh dưỡng, chăm sóc người bệnh hậu phẫu, sau ốm dậy</h4>
-                                <div class="small-new-meta">
-                                    <span class="date"><img src="images/LichTrang.svg" alt="calendar">22.10.2020</span>
+                    <div class="new2">
+
+                        <div class="new2-1">
+                            <img src="images/sTinTucNoiBat1.png" alt="">
+                            <div class="items">
+
+                                <a href="#" class="athu1">Những lưu ý về chế độ dinh dưỡng, chăm sóc người bệnh hậu
+                                    phẫu, sau ốm dậy</a>
+                                <div class="items-meta">
+                                    <img src="images/LichTrang.svg" alt="ejjv">
+                                    <span>22.10.2020</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="small-new">
-                            <img src="images/sTinTucNoiBat2.png" alt="Nhung luu y ve che do dd" class="small-new-img">
-                            <div class="small-new-info">
-                                <h4>Sốt xuất huyết gia tăng, chuyên gia lưu ý cách chăm sóc người bệnh tốt nhất</h4>
-                                <div class="small-new-meta">
-                                    <span class="date"><img src="images/LichTrang.svg" alt="calendar">22.10.2020</span>
+
+                        <div class="new2-1">
+                            <img src="images/sTinTucNoiBat2.png" alt="">
+                            <div class="items">
+                                <a href="#" class="athu1">Sốt xuất huyết gia tăng, chuyên gia lưu ý cách chăm sóc
+                                    người bệnh tốt nhất</a>
+                                <div class="items-meta">
+                                    <img src="images/LichTrang.svg" alt="ejjv">
+                                    <span>22.10.2020</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="small-new">
-                            <img src="images/sTinTucNoiBat3.png" alt="Nhung luu y ve che do dd" class="small-new-img">
-                            <div class="small-new-info">
-                                <h4>Y tế cơ sở cứu sống nhiều ca bệnh tay chân miệng nguy kịch bằng kỹ thuật lọc máu
-                                </h4>
-                                <div class="small-new-meta">
-                                    <span class="date"><img src="images/LichTrang.svg" alt="calendar">22.10.2020</span>
+
+                        <div class="new2-1">
+                            <img src="images/sTinTucNoiBat3.png" alt="">
+                            <div class="items">
+                                <a href="#" class="athu1">Y tế cơ sở cứu sống nhiều ca bệnh tay chân miệng nguy kịch
+                                    bằng kỹ thuật lọc máu</a>
+                                <div class="items-meta">
+                                    <img src="images/LichTrang.svg" alt="ejjv">
+                                    <span>22.10.2020</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="small-new">
-                            <img src="images/sTinTucNoiBat4.png" alt="Nhung luu y ve che do dd" class="small-new-img">
-                            <div class="small-new-info">
-                                <h4>Số ca mắc bệnh tay chân miệng mới vẫn nhiều ở Khánh Hòa và Bình Định</h4>
-                                <div class="small-new-meta">
-                                    <span class="date"><img src="images/LichTrang.svg" alt="calendar">22.10.2020</span>
+
+                        <div class="new2-1">
+                            <img src="images/sTinTucNoiBat4.png" alt="">
+                            <div class="items">
+                                <a href="#" class="athu1">Số ca mắc bệnh tay chân miệng mới vẫn nhiều ở Khánh Hòa và
+                                    Bình Định</a>
+                                <div class="items-meta">
+                                    <img src="images/LichTrang.svg" alt="ejjv">
+                                    <span>22.10.2020</span>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
 
-            <div class="activity-news">
-                <h2 class="new-activity-title">TIN HOẠT ĐỘNG</h2>
-                <div class="activity-list">
-                    <div class="activity-item">
-                        <img src="images/TinTucHoatDong.png" alt="Tin tuc hoat dong" class="activity-img">
-                        <div class="activity-info">
-                            <p>Cơ sở lao động có yếu tố độc hại gây bệnh nghề nghiệp được quản lý còn thấp</p>
-                            <div class="activity-meta">
-                                <span class="date">22.11.2023</span> - <span>Trang thiết bị & cơ sở y tế</span>
-                            </div>
+            <div class="newsHoatDong">
+                <h2>TIN HOẠT ĐỘNG</h2>
+                <img src="images/TinTucHoatDong.png" alt="tin hoat dong" class="hinhhoatdong">
+                <div class="newsHoatDong1">
+                    <div class="items1">
+                        <a href="#" class="athu1">Cơ sở lao động có yếu tố độc hại gây bệnh nghề nghiệp được quản lý còn
+                            thấp</a>
+                        <div class="new1-meta">
+                            <img src="images/LichTrang.svg" alt="lich trang">
+                            <span>22.10.2020 - </span>
+                            <a href="#">Trang thiết bị & cơ sở y tế</a>
                         </div>
                     </div>
-                    <div class="activity-item">
-                        <p>Bổ sung 12 mặt hàng vật tư, thiết bị y tế vào Danh mục dự trữ quốc gia</p>
-                        <div class="activity-meta">
-                            <span class="date">22.10.2020</span> - <span>Trang thiết bị & cơ sở y tế</span>
+
+                    <div class="items1">
+                        <a href="#" class="athu1">Bổ sung 12 mặt hàng vật tư, thiết bị y tế vào Danh mục dự trữ quốc
+                            gia</a>
+                        <div class="new1-meta">
+                            <img src="images/LichTrang.svg" alt="lich trang">
+                            <span>22.10.2020 - </span>
+                            <a href="#">Trang thiết bị & cơ sở y tế</a>
                         </div>
                     </div>
-                    <div class="activity-item">
-                        <p>EuroCham phát động chiến dịch ủng hộ trang thiết bị y tế thiết yếu</p>
-                        <div class="activity-meta">
-                            <span class="date">22.10.2020</span> - <span>Trang thiết bị & cơ sở y tế</span>
+
+                    <div class="items1">
+                        <a href="#" 6 class="athu1">EuroCham phát động chiến dịch ủng hộ trang thiết bị y tế thiết yếu
+                        </a>
+                        <div class="new1-meta">
+                            <img src="images/LichTrang.svg" alt="lich trang">
+                            <span>22.10.2020 - </span>
+                            <a href="#">Trang thiết bị & cơ sở y tế</a>
                         </div>
                     </div>
                 </div>
-            </div>
+        </section>
 
 
         </sesion>
@@ -229,13 +257,16 @@
         <section class="Event-new">
             <div class="header-section">
                 <h3 class="section-title">SỰ KIỆN MỚI NHẤT</h3>
-                <a href="#" class="view-all-button"><span>Xem tất cả</span></a>
-                <img src="images/MuiTen.svg" alt="Mũi tên" class="mui-ten">
+                <div class="section-button">
+                    <a href="#" class="view-all-button"><span>Xem tất cả</span></a>
+                    <img src="images/MuiTen.svg" alt="Mũi tên" class="mui-ten">
+                </div>
             </div>
             <div class="event-list">
                 <div class="event-item">
                     <img src="images/SuKien1.png" alt="Event 1" class="event-img">
-                    <p class="event-info">Bộ Y tế hướng dẫn mới nhất vị trí việc làm công chức nghiệp vụ chuyên ngành y
+                    <p class="event-info">Bộ Y tế hướng dẫn mới nhất vị trí việc làm công chức nghiệp vụ chuyên
+                        ngành y
                         tế</p>
                     <div class="event-meta">
                         <span class="date"><img src="images/LichSuKien.png" alt="calendar">22.10.2020</span>
@@ -251,7 +282,8 @@
                 </div>
                 <div class="event-item">
                     <img src="images/SuKien3.png" alt="Event 1" class="event-img">
-                    <p class="event-info">Cơ sở lao động có yếu tố độc hại gây bệnh nghề nghiệp được quản lý còn thấp
+                    <p class="event-info">Cơ sở lao động có yếu tố độc hại gây bệnh nghề nghiệp được quản lý còn
+                        thấp
                     </p>
                     <div class="event-meta">
                         <span class="date"><img src="images/LichSuKien.png" alt="calendar">22.11.2023</span>
@@ -259,7 +291,8 @@
                 </div>
                 <div class="event-item">
                     <img src="images/SuKien3.png" alt="Event 1" class="event-img">
-                    <p class="event-info">Cơ sở lao động có yếu tố độc hại gây bệnh nghề nghiệp được quản lý còn thấp
+                    <p class="event-info">Cơ sở lao động có yếu tố độc hại gây bệnh nghề nghiệp được quản lý còn
+                        thấp
                     </p>
                     <div class="event-meta">
                         <span class="date"><img src="images/LichSuKien.png" alt="calendar">22.11.2023</span>
@@ -267,7 +300,8 @@
                 </div>
                 <div class="event-item">
                     <img src="images/SuKien4.png" alt="Event 1" class="event-img">
-                    <p class="event-info">Thứ trưởng Bộ Y tế Đỗ Xuân Tuyên tham dự kỳ họp lần thứ 42 Đại Hội đồng UNESCO
+                    <p class="event-info">Thứ trưởng Bộ Y tế Đỗ Xuân Tuyên tham dự kỳ họp lần thứ 42 Đại Hội đồng
+                        UNESCO
                     </p>
                     <div class="event-meta">
                         <span class="date"><img src="images/LichSuKien.png" alt="calendar">22.10.2020</span>
@@ -282,7 +316,8 @@
                 </div>
                 <div class="event-item">
                     <img src="images/SuKien3.png" alt="Event 1" class="event-img">
-                    <p class="event-info">Cơ sở lao động có yếu tố độc hại gây bệnh nghề nghiệp được quản lý còn thấp
+                    <p class="event-info">Cơ sở lao động có yếu tố độc hại gây bệnh nghề nghiệp được quản lý còn
+                        thấp
                     </p>
                     <div class="event-meta">
                         <span class="date"><img src="images/LichSuKien.png" alt="calendar">22.11.2023</span>
@@ -290,7 +325,8 @@
                 </div>
                 <div class="event-item">
                     <img src="images/SuKien3.png" alt="Event 1" class="event-img">
-                    <p class="event-info">Cơ sở lao động có yếu tố độc hại gây bệnh nghề nghiệp được quản lý còn thấp
+                    <p class="event-info">Cơ sở lao động có yếu tố độc hại gây bệnh nghề nghiệp được quản lý còn
+                        thấp
                     </p>
                     <div class="event-meta">
                         <span class="date"><img src="images/LichSuKien.png" alt="calendar">22.11.2023</span>
@@ -300,176 +336,558 @@
             </div>
         </section>
 
-        <div class="main-content">
-            <!--Y duoc hoc-->
-            <section class="y-duoc-hoc">
-                <img src="images/DuongThangDo.png" alt="red-line" class="red-line-0">
-                <div class="section-header">
-                    <div class="header-left">
-                        <h2 class="section-title">Y DƯỢC HỌC</h2>
-                        <div class="filter-buttons">
-                            <button type="button">Trong nước</button>
-                            <button type="button">Nước ngoài</button>
+        <!--thay the-->
+        <section class="phan-trang-chung">
+            <div class="acticle">
+                <div class="acticle-main">
+                    <hr class="phan-cach">
+
+                    <div class="headerListNews">
+                        <div class="headerLeftListNews">
+                            <h2 class="section-title-2">Y DƯỢC HỌC</h2>
+                            <div class="optionheaderlistnews">
+                                <a href="#">Trong nước</a>
+                                <a href="#">Nước ngoài</p>
+                            </div>
+
+                        </div>
+
+                        <div class="section-button">
+                            <a href="#" class="view-all-button"><span>Xem tất cả</span></a>
+                            <img src="images/MuiTen.svg" alt="Mũi tên" class="mui-ten">
                         </div>
                     </div>
 
-                    <div class="header-right">
-                        <a href="#" class="view-all-button">Xem tất cả</a>
-                        <img src="images/MuiTen.svg" alt="Mũi tên" class="mui-ten">
+
+                    <div class="acticle-column">
+                        <div class="main-column">
+                            <img src="images/YDuocHoc1 (2).png" alt="Benh cum o nguoi cao tuoi">
+                            <div class="acticle-info">
+                                <h3 class="acticle-info-title">Bệnh cúm ở người cao tuổi dễ chuyển nặng, phòng ngừa
+                                    cách
+                                    nào?</h3>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Y dược học nước ngoài</a>
+                                </div>
+                                <p class="p-chung">Ở người cao tuổi, hệ miễn dịch suy giảm, khả năng thích nghi
+                                    kém nên dễ bị nhiễm cúm. Nếu không được điều trị và chăm sóc dinh dưỡng tốt thì
+                                    virus cúm có thể gây ra viêm đường hô hấp dưới, điển hình nhất là ho, viêm phổi,
+                                    gây
+                                    suy hô hấp.</p>
+                            </div>
+                        </div>
+                        <div class="minor-acticle">
+
+                            <img src="images/YDuocHoc2 (2).png" alt="Nhung luu y ve che do dinh duong" class="i1">
+
+                            <div class="acticle-other">
+                                <h5 class="acticle-1-title">Những lưu ý về chế độ dinh dưỡng, chăm sóc người bệnh hậu
+                                    phẫu, sau ốm dậy</h5>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Y dược học trong nuoc</a>
+                                </div>
+                            </div>
+                            <div class="acticle-other">
+                                <h5 class="acticle-1-title">Robot mổ não Modus V Synaptive có khả năng giúp bác sĩ
+                                    thấy
+                                    rõ các bó sợi thần kinh, các mô não lành...</h5>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Y dược học trong nuoc</a>
+                                </div>
+                            </div>
+                            <div class="acticle-other">
+                                <h5 class="acticle-1-title">Sợi bán dẫn lượng tử dạng vân cá nhiệt đới: Một đột phá
+                                    cho
+                                    công nghệ bán dẫn vi mạch</h5>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Y dược học trong nuoc</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="acticle-main">
+                    <hr class="phan-cach">
+                    <div class="headerListNews">
+                        <h2 class="section-title">CÁC PHƯƠNG PHÁP ĐIỀU TRỊ</h2>
+                        <div class="section-button">
+                            <a href="#" class="view-all-button"><span>Xem tất cả</span></a>
+                            <img src="images/MuiTen.svg" alt="Mũi tên" class="mui-ten">
+                        </div>
+                    </div>
+                    <div class="acticle-column">
+                        <div class="main-column">
+                            <img src="images/DieuTri1.png" alt="Ha Natri mau">
+                            <div class="acticle-info">
+                                <h3 class="acticle-info-title">Hạ Natri máu - Nguyên nhân, chẩn đoán và xử trí</h3>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Phương pháp điều trị</a>
+                                </div>
+                                <p class="p-chung">Hạ Natri máy hay gặp trong hồi sức cấp cứu. Nồng độ natri
+                                    trong máu gây nên tình trạng giảm áp lực thẩm thấu ngoài tế bào, dẫn tới thừa
+                                    nước
+                                    trong tế bào do nước di chuyển từ ngoài vào trong tê bào</p>
+                            </div>
+                        </div>
+                        <div class="minor-acticle">
+
+                            <img src="images/YDuocHoc2 (2).png" alt="Nghien cuu khang isulin" class="i1">
+                            <div class="acticle-other">
+                                <h5 class="acticle-1-title">Nghiên cứu kháng isulin ở bệnh nhân suy thận mạn lọc máu chu
+                                    kỳ</h5>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Phương pháp điều trị</a>
+                                </div>
+                            </div>
+
+                            <div class="acticle-other">
+                                <h5 class="acticle-1-title">Robot mổ não Modus V Synaptive có khả năng giúp bác sĩ
+                                    thấy
+                                    rõ các bó sợi thần kinh, các mô não lành...</h5>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Phương pháp điều trị</a>
+                                </div>
+                            </div>
+                            <div class="acticle-other">
+                                <h5 class="acticle-1-title">Sợi bán dẫn lượng tử dạng vân cá nhiệt đới: Một đột phá
+                                    cho
+                                    công nghệ bán dẫn vi mạch</h5>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Phương pháp điều trị</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="acticle-main">
+                    <hr class="phan-cach">
+                    <div class="headerListNews">
+                        <h2 class="section-title">TRANG THIẾT BỊ & CƠ SỞ Y TẾ</h2>
+                        <div class="section-button">
+                            <a href="#" class="view-all-button"><span>Xem tất cả</span></a>
+                            <img src="images/MuiTen.svg" alt="Mũi tên" class="mui-ten">
+                        </div>
+                    </div>
+
+                    <div class="acticle-column">
+                        <div class="main-column">
+                            <img src="images/ThietBi1.png" alt="Đấu thầu trang thiết bị y tế được gỡ vướng mắc">
+                            <div class="acticle-info">
+                                <h3 class="acticle-info-title">Đấu thầu trang thiết bị y tế được gỡ vướng mắc</h3>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Trang thiết bị & cơ sở y tế</a>
+                                </div>
+                                <p class="p-chung">Bộ Y tế vừa ban hành Thông tư 08/2023/TT-BYT bãi bỏ một số
+                                    văn bản quy phạm pháp luật do Bộ trưởng Bộ Y tế ban hành. Trong đó có Thông tư
+                                    số
+                                    14/2020/TT-BYT ngày 10/7/2020 của Bộ trưởng Bộ Y tế quy định một số nội dung
+                                    trong
+                                    đấu thầu...</p>
+                            </div>
+                        </div>
+                        <div class="minor-acticle">
+
+                            <img src="images/ThietBi2.png"
+                                alt="Chính phủ ban hành Nghị quyết về các giải pháp bảo đảm thuốc, trang thiết bị y tế"
+                                class="i1">
+
+                            <div class="acticle-other">
+                                <h5 class="acticle-1-title">Chính phủ ban hành Nghị quyết về các giải pháp bảo đảm
+                                    thuốc, trang thiết bị y tế</h5>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Trang thiết bị & cơ sở y tế</a>
+                                </div>
+                            </div>
+                            <div class="acticle-other">
+                                <h5 class="acticle-1-title">Bổ sung 12 mặt hàng vật tư, thiết bị y tế vào Danh mục
+                                    dự
+                                    trữ quốc gia</h5>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Trang thiết bị & cơ sở y tế</a>
+                                </div>
+                            </div>
+                            <div class="acticle-other">
+                                <h5 class="acticle-1-title">EuroCham phát động chiến dịch ủng hộ trang thiết bị y tế
+                                    thiết yếu cho Việt Nam</h5>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Trang thiết bị & cơ sở y tế</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="acticle-main">
+                    <hr class="phan-cach">
+                    <div class="headerListNews">
+                        <h2 class="section-title">Y, DƯỢC VÀ SỨC KHOẺ</h2>
+                        <div class="section-button">
+                            <a href="#" class="view-all-button"><span>Xem tất cả</span></a>
+                            <img src="images/MuiTen.svg" alt="Mũi tên" class="mui-ten">
+                        </div>
+                    </div>
+
+                    <div class="acticle-column">
+                        <div class="main-column">
+                            <img src="images/YDuocSucKhoe1.png"
+                                alt="Dễ ngộ độc khi lạm dụng paracetamol tự chữa COVID-19">
+                            <div class="acticle-info">
+                                <h3 class="acticle-info-title">Dễ ngộ độc khi lạm dụng paracetamol tự chữa COVID-19
+                                </h3>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Y, Dược và sức khỏe</a>
+                                </div>
+                                <p class="p-chung">Ở người cao tuổi, hệ miễn dịch suy giảm, khả năng thích nghi
+                                    kém nên dễ bị nhiễm cúm. Nếu không được điều trị và chăm sóc dinh dưỡng tốt thì
+                                    virus cúm có thể gây ra viêm đường hô hấp dưới, điển hình nhất là ho, viêm phổi,
+                                    gây
+                                    suy hô hấp.</p>
+                            </div>
+                        </div>
+                        <div class="minor-acticle">
+
+                            <img src="images/YDuocSucKhoe2.png"
+                                alt="Thuốc kháng sinh trị mụn trứng cá có thể ảnh hưởng đến xương ở thanh thiếu niên"
+                                class="i1">
+
+                            <div class="acticle-other">
+                                <h5 class="acticle-1-title">Thuốc kháng sinh trị mụn trứng cá có thể ảnh hưởng đến xương
+                                    ở thanh thiếu niên
+                                </h5>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Y, Dược và sức khỏe</a>
+                                </div>
+                            </div>
+                            <div class="acticle-other">
+                                <h5 class="acticle-1-title">Làm gì khi xuất hiện tác dụng phụ của thuốc giảm đau
+                                    opioid?
+                                </h5>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Y, Dược và sức khỏe</a>
+                                </div>
+                            </div>
+                            <div class="acticle-other">
+                                <h5 class="acticle-1-title">Tiêm phòng cúm giúp giảm biến cố tim mạch ở bệnh nhân
+                                    suy
+                                    tim</h5>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Y, Dược và sức khỏe</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="acticle-main">
+                    <hr class="phan-cach">
+                    <div class="headerListNews">
+                        <h2 class="section-title">SỨC KHOẺ CỘNG ĐỒNG</h2>
+                        <div class="section-button">
+                            <a href="#" class="view-all-button"><span>Xem tất cả</span></a>
+                            <img src="images/MuiTen.svg" alt="Mũi tên" class="mui-ten">
+                        </div>
+                    </div>
+
+                    <div class="acticle-column">
+                        <div class="main-column">
+                            <img src="images/SucKhoe1.png"
+                                alt="Cẩn trọng với tình trạng đột quỵ ở người cao tuổi khi nắng nóng kéo dài">
+                            <div class="acticle-info">
+                                <h3 class="acticle-info-title">Cẩn trọng với tình trạng đột quỵ ở người cao tuổi khi
+                                    nắng nóng kéo dài</h3>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Sức khỏe cộng đồng</a>
+                                </div>
+                                <p class="p-chung">Nắng nóng kéo dài là một trong những nguyên nhân hàng đầu dẫn
+                                    tới tình trạng đột quỵ ở người lớn tuổi. Vậy người lớn tuổi cần chăm sóc sức
+                                    khoẻ
+                                    như thế nào để hạn chế nguy cơ này?</p>
+                            </div>
+                        </div>
+                        <div class="minor-acticle">
+
+                            <img src="images/SucKhoe2.png"
+                                alt="Trẻ bị ho uống kháng sinh gì, lạm dụng nguy hiểm ra sao?" class="i1">
+                            <div class="acticle-other">
+                                <h5 class="acticle-1-title">Trẻ bị ho uống kháng sinh gì, lạm dụng nguy hiểm ra sao?
+                                </h5>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Sức khỏe cộng đồng</a>
+                                </div>
+                            </div>
+                            <div class="acticle-other">
+                                <h5 class="acticle-1-title">Trẻ còi cọc, lười ăn, thiếu máu vì nhiễm giun sán và
+                                    cách
+                                    nhận biết</h5>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Sức khỏe cộng đồng</a>
+                                </div>
+                            </div>
+                            <div class="acticle-other">
+                                <h5 class="acticle-1-title">Tết đến gần, liên tục trẻ hóc dị vật, bác sĩ Nhi khoa
+                                    cảnh
+                                    báo gì?</h5>
+                                <div class="acticle-meta">
+                                    <img src="images/LichSuKien.png" alt="lich trang">
+                                    <span>22.10.2020 - </span>
+                                    <a href="#">Sức khỏe cộng đồng</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </hr>
+                </div>
+            </div>
+            <div class="sidebar-widgets">
+                <div class="widget-noti">
+                    <div class="title-thong-bao">
+                        <h5>THÔNG BÁO</h5>
+                    </div>
+
+                    <ul class="noti-list">
+                        <li>
+                            <img src="images/Widget.svg" alt="" />
+                            <p>
+                                Thông báo tuyển dụng nhân sự công tác tại tổ quản trị văn
+                                phòng khoa, khoa dược
+                            </p>
+                        </li>
+                        <li>
+                            <img src="images/Widget.svg" alt="" />
+                            <p>Thông báo về việc tổ chức hội nghị Tạp Chí Y Dược</p>
+                        </li>
+                        <li>
+                            <img src="images/Widget.svg" alt="" />
+                            <p>
+                                Thông báo về việc cấp giấy chứng nhận đăng bài trong Tạp chí Y
+                                Dược học
+                            </p>
+                        </li>
+                        <li>
+                            <img src="images/Widget.svg" alt="" />
+                            <p>
+                                Quyết định Phê duyệt Danh mục Tạp chí được tính điểm năm 2023 của Hội đồng Giáo sư nhà
+                                nước
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="widget-link">
+                    <div class="title-lien-ket">
+                        <h5> LÊN KẾT WEBSITE </h5>
+                    </div>
+                    <div class="link">
+                        <select>
+                            <option value="">-- Chọn liên kết --</option>
+                        </select>
+                        <img src="images/Vector.svg" alt="vector" />
                     </div>
                 </div>
 
-                <div class="y-duoc-hoc-main">
-                    <img src="images/YDuocHoc1 (2).png" alt="Benh cum">
-                    <div class="y-duoc-hoc-main-info">
-                        <a href="#">Bệnh cúm ở người cao tuổi dễ chuyển nặng, phòng ngừa cách nào?</a>
-                        <div class="y-duoc-hoc-meta">
-                            <span class="date"><img src="images/LichSuKien.png" alt="calendar">22.11.2023</span>
-                            <span class="category">Y dược học nước ngoài</span>
-                        </div>
+                <div class="widget-link">
+                    <div class="title-tra-cuu">
+                        <h5>TRA CỨU TỪ ĐIỂN</h5>
                     </div>
-                    <p class="y-duoc-hoc-detail">Ở người cao tuổi, hệ miễn dịch suy giảm, khả năng thích nghi kém nên dễ
-                        bị
-                        nhiễm cúm. Nếu không được điều trị và chăm sóc dinh dưỡng tốt thì virus cúm có thể gây ra viêm
-                        đường
-                        hô hấp dưới, điển hình nhất là ho, viêm phổi, gây suy hô hấp.</p>
+                    <div class="tu-dien">
+                        <span>Từ điển: <strong>Anh - Việt</strong></span>
+                    </div>
+                    <form class="search-form-1"> <!--de bao boc cac yeu to nhap lieu ma nguoi dung co the gui di-->
+                        <input type="text" class="search-input" placeholder="Nhập từ tìm kiếm">
+                        <button type="submit" class="search-button1">
+                            <img src="images/Magnifer.svg" alt="Search">
+                        </button>
+                    </form>
                 </div>
-                <div class="y-duoc-hoc-phu">
-                    <img src="images/YDuocHoc2 (2).png" alt="Nhung luu y ve che do dinh duong">
-                    <div class="y-duoc-hoc-phu-info">
-                        <a href="#">Những lưu ý về chế độ dinh dưỡng, chăm sóc người bệnh hậu phẫu, sau ốm dậy</a>
-                        <div class="y-duoc-hoc-meta">
-                            <span class="date"><img src="images/LichSuKien.png" alt="calendar">20.10.2020</span>
-                            <span class="category">Y dược học trong nước</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="y-duoc-hoc-list">
-                    <div class="y-duoc-hoc-in-list">
-                        <a href="#">Robot mổ não Modus V Synaptive có khả năng giúp bác sĩ thấy rõ các bó sợi thần kinh,
-                            các
-                            mô não lành...</a>
-                        <div class="y-duoc-hoc-meta">
-                            <span class="date"><img src="images/LichSuKien.png" alt="calendar">20.10.2020</span>
-                            <span class="category">Y dược học nước ngoài</span>
-                        </div>
-                    </div>
-                    <div class="y-duoc-hoc-in-list">
-                        <a href="#">Sợi bán dẫn lượng tử dạng vân cá nhiệt đới: Một đột phá cho công nghệ bán dẫn vi
-                            mạch</a>
-                        <div class="y-duoc-hoc-meta">
-                            <span class="date"><img src="images/LichSuKien.png" alt="calendar">20.10.2020</span>
-                            <span class="category">Y dược học nước ngoài</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            <div class="announcement-box">
-                <h3>THÔNG BÁO</h3>
-                <ul class="announcement-list">
-                    <li>
-                        <a href="#">Thông báo tuyển dụng nhân sự công tác tại tổ quản trị văn phòng khoa, khoa dược</a>
-                    </li>
-                    <li>
-                        <a href="#">Thông báo về việc tổ chức hội nghị Tạp Chí Y Dược</a>
-                    </li>
-                    <li>
-                        <a href="#">Thông báo về việc cấp giấy chứng nhận đăng bài trong Tạp chí Y Dược học</a>
-                    </li>
-                    <li>
-                        <a href="#">Quyết định Phê duyệt Danh mục Tạp chí được tính điểm năm 2023 của Hội đồng Giáo sư
-                            nhà
-                            nước</a>
-                    </li>
-                </ul>
+                <div class="tap-chi-moi-phat-hanh">
+                    <h5 class="tap-chi-title">TẠP CHÍ MỚI PHÁT HÀNH</h5>
+                    <img src="images/ThuVien1.png" alt="tap chi">
+                </div>
+
+                <div class="ban-bien-tap">
+                    <h5 class="ban-bien-tap-title"><strong>BAN BIÊN TẬP - THỐNG KÊ</strong></h5>
+                    <div class="truy-cap">
+                        <div class="truy-cap-right">
+                            <p class="tc">Truy cập:</p>
+                            <p class="tc120">120</p>
+                        </div>
+                        <div class="truy-cap-left">
+                            <img src="images/Eye.png" alt="con mat">
+                            <p class="tc">Đang xem:</p>
+                            <p class="tc120">1</p>
+                        </div>
+                    </div>
+                    <div class="tmp-chung">
+                        <a href="#">BAN BIÊN TẬP <br> WEBSITE</a>
+                    </div>
+                    <div class="tmp-chung">
+                        <a href="#">HỘI ĐỒNG BIÊN TẬP <br>Y HỌC</a>
+                    </div>
+                    <div class="tmp-chung">
+                        <a href="#">HỘI ĐỒNG BIÊN TẬP <br> DƯỢC HỌC</a>
+                    </div>
+
+                </div>
+
+                <div class="ueh">
+                    <img src="images/UEH.png" alt="ueh">
+                </div>
+                <div class="duong-day-nong">
+                    <img src="images/Duong day nong.png" alt="duong-day-nong">
+                </div>
+                <div class="sat">
+                    <img src="images/SAT.png" alt="SAT">
+                </div>
+                <div class="xay-dung">
+                    <img src="images/Xay dung thuc thi.png" alt="Xay dung thuc thi chinh sach y te">
+                </div>
+                <div class="vax-xin">
+                    <img src="images/VacXin.png" alt="Tiem vax xin">
+                </div>
+
+            </div>
+        </section>
+
+        <!--tin hoat dong == su kien moi nhat-->
+        <section class="Event-new">
+            <div class="headerListNews1">
+                <div class="headerLeftListNews1">
+                    <h2 class="section-title1">TIN HOẠT ĐỘNG</h2>
+                    <div class="optionheaderlistnews1">
+                        <a href="#">Lãnh đạo bộ y tế</a>
+                        <a href="#">Lãnh đạo Trung tâm Thông tin y tế Quốc gia</p>
+                            <a href="#">Ngành Y tế</p>
+                    </div>
+                </div>
+
+                <div class="section-button">
+                    <a href="#" class="view-all-button"><span>Xem tất cả</span></a>
+                    <img src="images/MuiTen.svg" alt="Mũi tên" class="mui-ten">
+                </div>
             </div>
 
-        </div>
-
-
-        <section class="action-news">
-            <div class="header-section">\
-                <div class="flex-cow">
-                    <h4 class="section-title">TIN HOẠT ĐỘNG</h4>
-                    <div class="btn-group">
-                        <a href="#" class="btn1">Lãnh đạo bộ Y tế</a>
-                        <a href="#" class="btn2">Lãnh đạo Trung tâm Thông tin y tế Quốc gia</a>
-                        <a href="#" class="btn3">Ngành Y tế</a>
-                    </div>
-                </div>
-                <a href="#" class="view-all-button">Xem tất cả →</a>
-            </div>
-            <div class="action-list">
-                <div class="action-item">
-                    <img src="images/SuKien1.png" alt="Action 1" class="action-img">
-                    <p class="action-info">Bộ Y tế hướng dẫn mới nhất vị trí việc làm công chức nghiệp vụ chuyên ngành y
+            <div class="event-list">
+                <div class="event-item">
+                    <img src="images/SuKien1.png" alt="Event 1" class="event-img">
+                    <p class="event-info">Bộ Y tế hướng dẫn mới nhất vị trí việc làm công chức nghiệp vụ chuyên
+                        ngành y
                         tế</p>
-                    <div class="action-meta">
-                        <span class="date"><img src="images/Union.svg" alt="calendar">22.10.2020</span>
+                    <div class="event-meta">
+                        <span class="date"><img src="images/LichSuKien.png" alt="calendar">22.10.2020</span>
                     </div>
                 </div>
-                <div class="action-item">
-                    <img src="images/SuKien2.png" alt="Event 1" class="action-img">
-                    <p class="action-info">Tiếp nhận sinh phẩm phục vụ điều tra, giám sát bệnh bạch hầu do CDC Hoa Kỳ
+                <div class="event-item">
+                    <img src="images/SuKien2.png" alt="Event 1" class="event-img">
+                    <p class="event-info">Tiếp nhận sinh phẩm phục vụ điều tra, giám sát bệnh bạch hầu do CDC Hoa Kỳ
                         viện trợ</p>
-                    <div class="action-meta">
-                        <span class="date"><img src="images/Union.svg" alt="calendar">22.11.2023</span>
+                    <div class="event-meta">
+                        <span class="date"><img src="images/LichSuKien.png" alt="calendar">22.11.2023</span>
                     </div>
                 </div>
-                <div class="action-item">
-                    <img src="images/SuKien3.png" alt="Event 1" class="action-img">
-                    <p class="action-info">Cơ sở lao động có yếu tố độc hại gây bệnh nghề nghiệp được quản lý còn thấp
+                <div class="event-item">
+                    <img src="images/SuKien3.png" alt="Event 1" class="event-img">
+                    <p class="event-info">Cơ sở lao động có yếu tố độc hại gây bệnh nghề nghiệp được quản lý còn
+                        thấp
                     </p>
-                    <div class="action-meta">
-                        <span class="date"><img src="images/Union.svg" alt="calendar">22.11.2023</span>
+                    <div class="event-meta">
+                        <span class="date"><img src="images/LichSuKien.png" alt="calendar">22.11.2023</span>
                     </div>
                 </div>
-                <div class="action-item">
-                    <img src="images/SuKien3.png" alt="Event 1" class="action-img">
-                    <p class="action-info">Cơ sở lao động có yếu tố độc hại gây bệnh nghề nghiệp được quản lý còn thấp
+                <div class="event-item">
+                    <img src="images/SuKien3.png" alt="Event 1" class="event-img">
+                    <p class="event-info">Cơ sở lao động có yếu tố độc hại gây bệnh nghề nghiệp được quản lý còn
+                        thấp
                     </p>
-                    <div class="action-meta">
-                        <span class="date"><img src="images/Union.svg" alt="calendar">22.11.2023</span>
+                    <div class="event-meta">
+                        <span class="date"><img src="images/LichSuKien.png" alt="calendar">22.11.2023</span>
                     </div>
                 </div>
-                <div class="action-item">
-                    <img src="images/SuKien4.png" alt="Event 1" class="action-img">
-                    <p class="action-info">Thứ trưởng Bộ Y tế Đỗ Xuân Tuyên tham dự kỳ họp lần thứ 42 Đại Hội đồng
-                        UNESCO</p>
-                    <div class="action-meta">
-                        <span class="date"><img src="images/Union.svg" alt="calendar">22.10.2020</span>
-                    </div>
-                </div>
-                <div class="action-item">
-                    <img src="images/SuKien5.png" alt="Event 1" class="action-img">
-                    <p class="action-info">Triển khai nghiên cứu các vấn đề sức khỏe liên quan đến COVID-19</p>
-                    <div class="action-meta">
-                        <span class="date"><img src="images/Union.svg" alt="calendar">22.11.2023</span>
-                    </div>
-                </div>
-                <div class="action-item">
-                    <img src="images/SuKien3.png" alt="Event 1" class="action-img">
-                    <p class="action-info">Cơ sở lao động có yếu tố độc hại gây bệnh nghề nghiệp được quản lý còn thấp
+                <div class="event-item">
+                    <img src="images/SuKien4.png" alt="Event 1" class="event-img">
+                    <p class="event-info">Thứ trưởng Bộ Y tế Đỗ Xuân Tuyên tham dự kỳ họp lần thứ 42 Đại Hội đồng
+                        UNESCO
                     </p>
-                    <div class="action-meta">
-                        <span class="date"><img src="images/Union.svg" alt="calendar">22.11.2023</span>
+                    <div class="event-meta">
+                        <span class="date"><img src="images/LichSuKien.png" alt="calendar">22.10.2020</span>
                     </div>
                 </div>
-                <div class="action-item">
-                    <img src="images/SuKien3.png" alt="Event 1" class="action-img">
-                    <p class="action-info">Cơ sở lao động có yếu tố độc hại gây bệnh nghề nghiệp được quản lý còn thấp
+                <div class="event-item">
+                    <img src="images/SuKien5.png" alt="Event 1" class="event-img">
+                    <p class="event-info">Triển khai nghiên cứu các vấn đề sức khỏe liên quan đến COVID-19</p>
+                    <div class="event-meta">
+                        <span class="date"><img src="images/LichSuKien.png" alt="calendar">22.11.2023</span>
+                    </div>
+                </div>
+                <div class="event-item">
+                    <img src="images/SuKien3.png" alt="Event 1" class="event-img">
+                    <p class="event-info">Cơ sở lao động có yếu tố độc hại gây bệnh nghề nghiệp được quản lý còn
+                        thấp
                     </p>
-                    <div class="action-meta">
-                        <span class="date"><img src="images/Union.svg" alt="calendar">22.11.2023</span>
+                    <div class="event-meta">
+                        <span class="date"><img src="images/LichSuKien.png" alt="calendar">22.11.2023</span>
                     </div>
                 </div>
+                <div class="event-item">
+                    <img src="images/SuKien3.png" alt="Event 1" class="event-img">
+                    <p class="event-info">Cơ sở lao động có yếu tố độc hại gây bệnh nghề nghiệp được quản lý còn
+                        thấp
+                    </p>
+                    <div class="event-meta">
+                        <span class="date"><img src="images/LichSuKien.png" alt="calendar">22.11.2023</span>
+                    </div>
+                </div>
+
             </div>
         </section>
 
         <section class="library">
             <div class="library-header">
-                <h3 class="section-title">THƯ VIỆN</h3>
+                <h3 class="section-title-library">THƯ VIỆN</h3>
                 <p class="section-subtitle">Các số được phát hành mới nhất trong năm 2020 - 2022</p>
             </div>
             <div class="library-list">
@@ -543,26 +961,29 @@
             </div>
         </div>
         <div class="footer-info">
-            <div class="footer-info-container">
-                <div class="footer-text">
-                    <h3 class="info-title-main">TRUNG TÂM THÔNG TIN Y TẾ QUỐC GIA</h3>
-                    <h4 class="info-title-sub">TRANG THÔNG TIN ĐIỆN TỬ TẠP CHÍ Y DƯỢC HỌC</h4>
-                    <p><strong>Tòa soạn:</strong> Ngõ 135 Núi Trúc, Ba Đình Hà Nội</p>
-                    <p><strong>Điện thoại:</strong> 024.37368315 (máy lẻ 18, 22). <strong>Thư điện tử:</strong>
-                        bbt@tapchiydduochocvietnam.vn</p>
-                    <p><strong>Chịu trách nhiệm:</strong> Giám đốc Đỗ Trưởng Duy</p>
+
+            <div class="footer-text">
+                <h3 class="info-title-main">TRUNG TÂM THÔNG TIN Y TẾ QUỐC GIA</h3>
+                <h2 class="info-title-sub">TRANG THÔNG TIN ĐIỆN TỬ TẠP CHÍ Y DƯỢC HỌC</h2>
+                <p><strong>Tòa soạn:</strong> Ngõ 135 Núi Trúc, Ba Đình Hà Nội</p>
+                <p><strong>Điện thoại:</strong> 024.37368315 (máy lẻ 18, 22). <strong>Thư điện tử:</strong>
+                    bbt@tapchiydduochocvietnam.vn</p>
+                <p><strong>Chịu trách nhiệm:</strong> Giám đốc Đỗ Trưởng Duy</p>
+            </div>
+            <div class="footer-bottom">
+                <div class="copyrightleft">
+                    <p class="copyright">Copyright @ 2022 Tapchiydduoc.gov.vn. Bảo lưu mọi quyền | Tổng truy cập:
+                        <span class="visit-count">132.401.816</span>
+                    </p>
                 </div>
-                <hr class="footer-divider">
-                <div class="footer-bottom">
-                    <p class="copyright">Copyright @ 2022 Tapchiydduoc.gov.vn. Bảo lưu mọi quyền | Tổng truy cập: <span
-                            class="visit-count">132.401.816</span></p>
-                    <div class="social-media">
-                        <span>Mạng xã hội</span>
-                        <a href="#"><img src="images/Fb_logo.svg" alt="Facebook"></a>
-                        <a href="#"><img src="images/Yt-logo.svg" alt="Youtube"></a>
-                    </div>
+
+                <div class="social-media">
+                    <span>Mạng xã hội</span>
+                    <a href="#"><img src="images/Fb_logo.svg" alt="Facebook"></a>
+                    <a href="#"><img src="images/Yt-logo.svg" alt="Youtube"></a>
                 </div>
             </div>
+
         </div>
 
     </footer>
